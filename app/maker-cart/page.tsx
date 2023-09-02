@@ -17,8 +17,8 @@ import MC2 from '@/public/maker-cart/MC2.jpg'
 import MC21 from '@/public/maker-cart/MC21.jpg'
 import MC23 from '@/public/maker-cart/MC23.png'
 import MC3 from '@/public/maker-cart/MC3.png'
-import MC4 from '@/public/maker-cart/MC4.jpg'
-import MC5 from '@/public/maker-cart/MC5.jpg'
+import MC4 from '@/public/maker-cart/MC4.png'
+import MC5 from '@/public/maker-cart/MC5.png'
 import MC6 from '@/public/maker-cart/MC6.jpg'
 
 import SKT1 from '@/public/maker-cart/SKT1.png'
@@ -28,14 +28,14 @@ import SKT4 from '@/public/maker-cart/SKT4.png'
 
 import CAD1 from '@/public/maker-cart/CAD1.png'
 import CAD5 from '@/public/maker-cart/CAD5.png'
-import CAD3 from '@/public/maker-cart/CAD3.jpg'
+import CAD3 from '@/public/maker-cart/CAD3.png'
 import CAD4 from '@/public/maker-cart/CAD4.png'
 
 import ACT1 from '@/public/maker-cart/ACT1.png'
 import ACT2 from '@/public/maker-cart/ACT2.png'
 
 import P1 from '@/public/maker-cart/P1.png'
-import P2 from '@/public/maker-cart/P2.jpg'
+import P2 from '@/public/maker-cart/P2.png'
 // import TeacherSurvey from '@/public/maker-cart/teacher-survey.png'
 
 
