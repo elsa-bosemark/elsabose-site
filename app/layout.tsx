@@ -45,8 +45,9 @@ export default function RootLayout({
 // TASKS: 
 // 1 - check margin for mobile phone if looks good, XXXX
 // 2- add alt for safebites, XXX
-// 3- update the domain so it's better, 4 - delete other rep of git on the hosting place, 
-// 5 - When open website be in light mode, create more space in safebites area + numbering on desc, 
-// 6 - for the bolded text maybe make it bigger? with more margin? --- looks cramped, 
+// 3- update the domain so it's better, 4 - delete other rep of git on the hosting place, XXX
+// 5 - When open website be in light mode, XX
+//create more space in safebites area + numbering on desc, XXX
+// 6 - for the bolded text maybe make it bigger? with more margin? --- looks cramped, XX
 // 7- add a button lets you quickly scroll up when on project page
 // clean the code so there aren't a ton of commented out stuff, 

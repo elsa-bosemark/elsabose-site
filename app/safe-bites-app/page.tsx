@@ -6,6 +6,7 @@ import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import SectionDivider from "@/components/section-divider";
 import G2ImageCard from "@/components/project/G2ImageCard"
+import MiniDivider from "@/components/project/minidivider"
 // import ToggleAccordion from "@/components/project/accordion"
 import G2Card from "@/components/project/G2Card"
 
@@ -30,7 +31,7 @@ export default function Home() {
         <p> Was one of two designers and developers of app that tackled the confusing process of finding restaurants dedicated to keeping customers and employees safe from COVID-19. Through our review app, users can find the places that best follow CDC pandemic regulations, while providing resources for users to support local businesses during quarantine.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center">
+        <div className="flex flex-col md:flex-row justify-center mt-5">
           <div className="md:mr-4">
             <h1 className="font-bold text-center">Initial</h1>
             <Image
@@ -94,7 +95,14 @@ export default function Home() {
           />
         </div>
 
+
+
         <h1 className="font-bold text-center mt-10">Deliverables/Press</h1>
+        <div className="justify-center flex">
+          <MiniDivider />
+        </div>
+
+
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="py-5">
             <div className="aspect-w-16 aspect-h-9 flex">
@@ -129,7 +137,10 @@ export default function Home() {
         <SectionHeading>Revised</SectionHeading>
         <p>After the hackathon, the team pursued the app development. I became the project manager that helped with the development and design. Most of the 12 team members outreached and sought feedback for the design. I was one of two coders and designers for the project. I also taught workshops on React Native mobile app programming and how to use Figma for the other team members.</p>
 
-        <h1 className="font-bold text-center">Design Exploration</h1>
+        <h1 className="font-bold text-center ">Design Exploration</h1>
+        <div className="justify-center flex">
+          <MiniDivider />
+        </div>
         <G2ImageCard
           srcL={casestudy}
           altL="Image of the UX of Yelp sourced from Lucia Liu's article."
@@ -149,15 +160,21 @@ export default function Home() {
           descR="4. Team created surveys and outreached to local restaurants to find beta testers for the application."
         />
 
-        <h1 className="font-bold text-center">Final Design</h1>
-        <div className=" justify-center w-full h-full my-5">
+        <h1 className="font-bold text-center ">Final Design</h1>
+        <div className="justify-center flex">
+          <MiniDivider />
+        </div>
+        <div className=" justify-center w-full h-full mt-7 mb-5">
           <iframe className="w-full aspect-video rounded border object-cover shadow-xl" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIg94HK4ytAYLTLemD750mK%2FFinal-Safe-Bites-Design%3Ftype%3Ddesign%26node-id%3D811%253A2414%26mode%3Ddesign%26t%3DX2cTNdNN7gSGnuYe-1" ></iframe>
         </div>
         <p>Changes include, homepage screen functionality, adding more restaurant information to search bar, a more developed restaurant detail page, and an updated restaurant safety survey whose questions were derived from CDC guidelines.</p>
 
 
-        <h1 className="font-bold text-center">Demo Video of React Native App</h1>
-        <div className="aspect-w-16 aspect-h-9 w-full h-full justify-center my-5">
+        <h1 className="font-bold text-center mt-10">Demo Video of React Native App</h1>
+        <div className="justify-center flex">
+          <MiniDivider />
+        </div>
+        <div className="aspect-w-16 aspect-h-9 w-full h-full justify-center mt-7 mb-5">
           <iframe
             className="rounded border object-cover shadow-xl w-full aspect-video"
             width="100%" height="100%"

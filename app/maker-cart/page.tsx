@@ -8,6 +8,7 @@ import SectionDivider from "@/components/section-divider";
 import G2ImageCard from "@/components/project/G2ImageCard"
 // import ToggleAccordion from "@/components/project/accordion"
 import G2Card from "@/components/project/G2Card"
+import MiniDivider from "@/components/project/minidivider"
 
 import { motion } from "framer-motion";
 
@@ -55,9 +56,10 @@ export default function Home() {
         <SectionHeading>Maker Cart</SectionHeading>
         <p> Led initiative to build four Maker Carts for educators in public schools to introduce tinkering and making to k-8 classrooms. Project address the lack of hands on opportunities in under-resourced institutions. Maker Carts are equipped with supplies and activity cards that encourage students to develop the hard and soft skills needed in the 21st century. A Maker Cart has been tested at Aptos Middle school and adopted by two public library. Maker Carts continue to be built my Lick Wilmerding's High School's wood-shop class.
         </p>
-        <div className="flex flex-col md:flex-row align-center justify-center">
+        <div className="flex flex-col md:flex-row align-center justify-center mt-5">
           <div className="md:mr-4">
             <h1 className="font-bold text-center">Idea</h1>
+
             <Image
               src={SKT4}
               alt="Sketch of Maker Cart"
@@ -74,7 +76,7 @@ export default function Home() {
           <div className="md:ml-4">
             <h1 className="font-bold text-center">Product</h1>
             <Image
-              src= {MC5}
+              src={MC5}
               alt="Photo of Built Maker Cart"
               width="500"
               quality="95"
@@ -101,12 +103,17 @@ export default function Home() {
         </div>
 
 
-        <div className=" py-8">
-          <h1 className="font-bold mb-5 text-center">Audience Research</h1>
-          <G2Card/>
+
+        <h1 className="font-bold text-center">Audience Research</h1>
+        <MiniDivider />
+        <div className="my-7">
+          <G2Card />
         </div>
 
+
+
         <h1 className="font-bold text-center">Product Test & Design</h1>
+        <MiniDivider />
         <G2ImageCard
           srcL={P2}
           altL=""
@@ -126,8 +133,8 @@ export default function Home() {
         {/* <div className="w-full"> <ToggleAccordion iterationContent={iterationContent} /></div> */}
 
 
-        <h1 className="font-bold text-center mt-5">Prototype 1</h1>
-
+        <h1 className="font-bold text-center mt-10">Prototype 1</h1>
+        <MiniDivider />
         <div>
           <G2ImageCard
             srcL={CAD1}
@@ -147,7 +154,8 @@ export default function Home() {
           />
         </div>
 
-        <h1 className="font-bold text-center mt-5">Prototype 2</h1>
+        <h1 className="font-bold text-center  mt-10">Prototype 2</h1>
+        <MiniDivider />
 
         <div>
           <G2ImageCard
@@ -168,24 +176,25 @@ export default function Home() {
           />
 
           <div className="flex items-center justify-center flex-col ">
-            <h1 className="font-bold text-center">Featured Video of Prototype 2</h1>
+            <h1 className="font-bold text-center my-7">Featured Video of Prototype 2</h1>
             <p>The intention of this video was to introduce the Maker Cart project to a high school’s wood working class so that their students would continue to build carts.</p>
 
-            <div className="aspect-w-16 aspect-h-9 w-full h-full my-10">
+            <div className="aspect-w-16 aspect-h-9 w-full h-full my-5">
               <iframe
                 className="rounded border object-cover shadow-xl w-full aspect-video  "
                 width="100%" height="100%"
                 src="https://www.youtube.com/embed/1VzE2EJLPFQ?si=tj_PFbaPDp95UI4-"
               ></iframe>
             </div>
-            
+
           </div>
-          <h1 className="font-bold text-center">Feedback</h1>
-          <p>Interviewed the Librarian who is hosting the Maker Cart for feedback. She also interviewed the students. Noted of her thoughts and the students' can be found in this <a className="underline text-blue-500" href='https://docs.google.com/document/d/1177-oAzJJ8uyEo255quBCVW_H4REjcTi5DVfszdHfIQ/edit?usp=sharing'>GOOGLE DOC</a></p>
+
+          <p>Feedback: Interviewed the Librarian who is hosting the Maker Cart for feedback. She also interviewed the students. Noted of her thoughts and the students' can be found in this <a className="underline text-blue-500" href='https://docs.google.com/document/d/1177-oAzJJ8uyEo255quBCVW_H4REjcTi5DVfszdHfIQ/edit?usp=sharing'>GOOGLE DOC</a></p>
         </div>
 
 
-        <h1 className="font-bold text-center mt-5">Prototype 3 (Current)</h1>
+        <h1 className="font-bold text-center mt-20">Prototype 3 (Current)</h1>
+        <MiniDivider />
 
         <div>
           <G2ImageCard
@@ -208,6 +217,7 @@ export default function Home() {
 
 
         <h1 className="font-bold text-center mt-5">Activity Cards</h1>
+        <MiniDivider />
 
         <G2ImageCard
           srcL={ACT1}
