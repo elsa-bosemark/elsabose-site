@@ -46,157 +46,16 @@ import { BsArrowRight } from "react-icons/bs";
 // MAKE CART
 export default function Home() {
 
-  
-  
-  // const faqItems = [
-  //   {
-  //     question: 'Educator Survey',
-  //     answer: (
-  //       <>
-  //         <p>Created a google survey to explore what types of Maker content would be most useful for educators. Survey questions were peer-reviewed by two educators</p>
-  //         <Image src={TeacherSurvey} alt="Teacher Survey Form" width="500" quality="95" className="h-50 w-50 rounded border object-cover shadow-xl my-5" />
-  //         <p className="w-full text-left font-semibold"> Results</p>
-  //         <p>Top reasons that would help educators do more Maker activities:</p>
-  //         <p>• Having activity/project lesson plan ideas</p>
-  //         <p>• Getting supplies for free</p>
-  //         <p>• When offered Free Maker Cart, Educators 80% wanted it.</p>
-  //         <p className="w-full text-left font-semibold">Quotes:</p>
-  //         <p>"I currently store maker supplies in plastic boxes on a shelf. A cart would be fantastic!"</p>
-  //         <p>"Makerspaces really depend on many factors - space available, actors involved (principal, teacher/facilitator, parents, and kids), time available (we do it in our once a week tech class for a month or so)."</p>
-  //         <p className="w-full text-left font-semibold"> Conclusion</p>
-  //         <p>• There is interest in Maker Carts</p>
-  //         <p>• Maker Carts would need to be compact/small to fit in classroom</p>
-  //         <p>• Maker Carts should be able to close to avoid loosing supplies</p>
-  //         <p>• Materials should be unique and not stable items (ie magnet, hot glue gun etc)</p>
-  //         <p>• Cart should include activity cards that ideally relates to school curriculum</p>
-  //         <p></p>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     question: 'Educator Interviews',
-  //     answer: (
-  //       <>
-  //         <p className="w-full text-left font-semibold pt-4">STEM educator @ West Portal Elementary</p>
-  //         <p>• Challenges include not enough supplies or time with students</p>
-  //         <p>• Important to give activity ideas & some structure</p>
-  //         <p>• Label bins & make tools easily accessible to students (not hidden away)</p>
-  //         <p className="w-full text-left font-semibold pt-4">Exhibit Developer @ Exploratorium</p>
-  //         <p>• Soup containers are not effective use of space -- but good at making supplies seen and cheap</p>
-  //         <p>• Don’t need a metal frame & wood should be 3/4 thick</p>
-  //         <p>• Should use piano hinge to connect the Maker Car</p>
-  //         <p>• To avoid falling over easily make it bottom heavy</p>
-  //         <p className="w-full text-left font-semibold pt-4">Education Outreach Director @ Community Resources for Science</p>
-  //         <p>• Biggest challenge of Maker Cart is lack of educator bandwidth since pandemic</p>
-  //         <p>• Helpful to use activities & MakerCart at school before school adopts it so that educators understand how they can use Maker Cart.</p>
-  //         <p className="w-full text-left font-semibold pt-4">Spanish Teacher @ Public High School </p>
-  //         <p>• Think about mess & clean up -- how can you make it easier?</p>
-  //         <p>• There would have to be a point person with the MakerCart who takes action if something breaks or missing supplies</p>
-  //         <p className="w-full text-left font-semibold pt-4">Director of tech shops @ Lick Wilmerding High School</p>
-  //         <p>• Try to make design easy to build (use CNC when can)</p>
-  //         <p>• Document build process so that future students can replicate/be inspired</p>
-  //       </>
-  //     ),
-  //   },
-  //   // Add more faqItems as needed
-  // ];
-
-  // const iterationContent = [
-  //   {
-  //     title: "Prototype 1",
-  //     content: (
-  //       <>
-  //         <G2ImageCard
-  //           srcL={CAD1}
-  //           altL="A Rhino CAD Model of the first iteration of Maker Cart"
-  //           descL="1. Feedback for initial design included that it looked like a bench which could be dangerous if students used it as one. Also, it was pretty big and one of the educator requests was a compact cart that minimally used space."
-  //           srcR={CAD3}
-  //           altR="Rhino CAD Model of a scaled down iteration of Maker Cart"
-  //           descR="2. Tried a scaled down version of cart to save supplies for first prototype."
-  //         />
-  //         <G2ImageCard
-  //           srcL={MC0}
-  //           altL="Photo of bins with different materials inside at Mission Science Workshop that will be tested"
-  //           descL="3. Tested supplies w/ a Maker Cart's space constraints at Mission Science Workshop in San Francisco."
-  //           srcR={MC1}
-  //           altR="Two photos of the scaled down version of the Maker Cart that was built with plywood "
-  //           descR="4. Built 1/2 of Cart w/ CNC to see if the tool would make it fast/easy to build carts. Against expectations, it was not faster or easier. Tested cart at a public Mission Science event. The cart was too small & struggled to fit supplies."
-  //         />
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     title: "Prototype 2",
-  //     content: (
-  //       <>
-  //         <G2ImageCard
-  //           srcL={CAD4}
-  //           altL="Screenshot of the second prototype's Rhino CAD Model"
-  //           descL="1. Used lessons from prototype 1 to design second version of the cart: make cart bigger to accommodate more materials, the locked door is not needed, studier wheels, & people liked the soup containers and general layout"
-  //           srcR={MC23}
-  //           altR="Photo of the Maker Cart being built. The cart sits on a table with different clamps holding wood together to dry."
-  //           descR="2. Built the cart using table saw, and drill press which created cleaner cuts and a more seamless process. The side pieces needed a jigsaw which is not hard, but may be a tricky task for beginner woodworkers (which is important because my goal is for student at my highschool to continue build the carts after I graduate)"
-  //         />
-  //         <G2ImageCard
-  //           srcL={MC2}
-  //           altL="Photo of the built cart open with materials inside"
-  //           descL="3. Materials fit in the cart, but it seemed a bit cramped."
-  //           srcR={MC21}
-  //           altR="Photo of the built cart closed. The closed side is covered with a black board paint and has different chalk doodles on it."
-  //           descR="4. There was a lot of love for blackboard side. It does leave a chalk dust mess, so future cart should use white board."
-  //         />
-
-  //         <div className="flex items-center justify-center flex-col">
-  //           <h1 className="font-bold text-center">Featured Video of Prototype 2</h1>
-  //           <p>The intention of this video was to introduce the Maker Cart project to a high school’s wood working class so that their students would continue to build carts.</p>
-  //           <div className="aspect-w-16 aspect-h-9">
-  //             <iframe
-  //               className="rounded border object-cover shadow-xl my-5"
-  //               width="560" height="315"
-  //               src="https://www.youtube.com/embed/1VzE2EJLPFQ?si=tj_PFbaPDp95UI4-"
-  //             ></iframe>
-  //           </div>
-  //         </div>
-  //         <h1 className="font-bold text-center">Feedback</h1>
-  //         <p>Interviewed the Librarian who is hosting the Maker Cart for feedback. She also interviewed the students. Noted of her thoughts and the students' can be found in this <a className="underline text-blue-500" href='https://docs.google.com/document/d/1177-oAzJJ8uyEo255quBCVW_H4REjcTi5DVfszdHfIQ/edit?usp=sharing'>GOOGLE DOC</a></p>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     title: "Prototype 3 (Current)",
-  //     content: (
-  //       <>
-  //         <G2ImageCard
-  //           srcL={CAD5}
-  //           altL="Screen shot of Rhino CAD of the third Maker Cart prototype"
-  //           descL="1. Based on feedback from the Aptos Librarian and the students, changes included making the cart taller with more space between the bin shelves, adding a low bottom shelf for paper/other flat items, and handles on the cart. "
-  //           srcR={SKT3}
-  //           altR="Photo of a mini MDF prototype of the cart created using the laser cutter."
-  //           descR="2. Tested additional interior layouts using MDF and laser cutter before building the cart. Removed top shelf for fear items fall and hit kids getting materials lower down. Decided to keep horizontal/vertical spacing from previous design because it's easier to build."
-  //         />
-  //         <G2ImageCard
-  //           srcL={MC4}
-  //           altL="Photo of me screwing on the wheels to the cart"
-  //           descL="3. Took about 2 months to build the two carts on a 2.5h a week schedule. An estimated total of 9 hours to create per cart (when you know the process), especially when you can build in bulk."
-  //           srcR={MC6}
-  //           altR="Photo of the newest cart open with materials inside"
-  //           descR="4. Maker Cart at Visitacion Valley Public School. Materials did not completely fill up the cart, which is good because the librarian has space to add more types of supplies that his students like."
-  //         />
-  //       </>
-  //     ),
-  //   },
-  // ]
-
   return (
-    <main className="flex flex-col items-center ">
+    <main className="flex justify-center ">
       <BackButton />
 
-      <div className="flex items-center flex-col md: max-w-[50rem] ms:max-w-[20rem] ">
+      <div className="flex items-center justify-center flex-col lg:max-w-[50rem] md:max-w-[40rem] sm:max-w-[35rem] xs:max-w-[10rem] px-5">
 
         <SectionHeading>Maker Cart</SectionHeading>
         <p> Led initiative to build four Maker Carts for educators in public schools to introduce tinkering and making to k-8 classrooms. Project address the lack of hands on opportunities in under-resourced institutions. Maker Carts are equipped with supplies and activity cards that encourage students to develop the hard and soft skills needed in the 21st century. A Maker Cart has been tested at Aptos Middle school and adopted by two public library. Maker Carts continue to be built my Lick Wilmerding's High School's wood-shop class.
         </p>
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row align-center justify-center">
           <div className="md:mr-4">
             <h1 className="font-bold text-center">Idea</h1>
             <Image
@@ -308,16 +167,18 @@ export default function Home() {
             descR="4. There was a lot of love for blackboard side. It does leave a chalk dust mess, so future cart should use white board."
           />
 
-          <div className="flex items-center justify-center flex-col">
+          <div className="flex items-center justify-center flex-col ">
             <h1 className="font-bold text-center">Featured Video of Prototype 2</h1>
             <p>The intention of this video was to introduce the Maker Cart project to a high school’s wood working class so that their students would continue to build carts.</p>
-            <div className="aspect-w-16 aspect-h-9">
+
+            <div className="aspect-w-16 aspect-h-9 w-full h-full my-10">
               <iframe
-                className="rounded border object-cover shadow-xl my-5"
-                width="560" height="315"
+                className="rounded border object-cover shadow-xl w-full aspect-video  "
+                width="100%" height="100%"
                 src="https://www.youtube.com/embed/1VzE2EJLPFQ?si=tj_PFbaPDp95UI4-"
               ></iframe>
             </div>
+            
           </div>
           <h1 className="font-bold text-center">Feedback</h1>
           <p>Interviewed the Librarian who is hosting the Maker Cart for feedback. She also interviewed the students. Noted of her thoughts and the students' can be found in this <a className="underline text-blue-500" href='https://docs.google.com/document/d/1177-oAzJJ8uyEo255quBCVW_H4REjcTi5DVfszdHfIQ/edit?usp=sharing'>GOOGLE DOC</a></p>
