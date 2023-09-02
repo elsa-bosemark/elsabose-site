@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://elsa-bosemark.github.io/2023-Elsa-Portfolio", 
   "version": "0.1.0",
   "private": true,
   "scripts": {

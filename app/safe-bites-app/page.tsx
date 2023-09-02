@@ -6,7 +6,7 @@ import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import SectionDivider from "@/components/section-divider";
 import G2ImageCard from "@/components/project/G2ImageCard"
-import ToggleAccordion from "@/components/project/accordion"
+// import ToggleAccordion from "@/components/project/accordion"
 import G2Card from "@/components/project/G2Card"
 
 
