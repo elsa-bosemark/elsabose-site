@@ -7,7 +7,6 @@ import { BsArrowRight } from "react-icons/bs";
 import SectionDivider from "@/components/section-divider";
 import G2ImageCard from "@/components/project/G2ImageCard"
 import MiniDivider from "@/components/project/minidivider"
-// import ToggleAccordion from "@/components/project/accordion"
 import G2Card from "@/components/project/G2Card"
 
 

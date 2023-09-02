@@ -6,7 +6,6 @@ import SectionHeading from "@/components/section-heading";
 import Image from "next/image";
 import SectionDivider from "@/components/section-divider";
 import G2ImageCard from "@/components/project/G2ImageCard"
-// import ToggleAccordion from "@/components/project/accordion"
 import G2Card from "@/components/project/G2Card"
 import MiniDivider from "@/components/project/minidivider"
 
@@ -37,7 +36,6 @@ import ACT2 from '@/public/maker-cart/ACT2.png'
 
 import P1 from '@/public/maker-cart/P1.png'
 import P2 from '@/public/maker-cart/P2.png'
-// import TeacherSurvey from '@/public/maker-cart/teacher-survey.png'
 
 
 import { BsArrowRight } from "react-icons/bs";
@@ -250,9 +248,6 @@ export default function Home() {
           <h1 className="font-bold mt-5"> Exploration</h1>
           <p>If I could redo the project, I'd change the process to be more explorative early on. I noticed that once I had a design, I mostly stuck to it and made changes based on feedback. As Ford Model, the creator of one of the first mass-produced vehicles, said, "If I had asked people what they wanted, they would have said faster horses." People may not know what they want, but they can tell me from a list of options. And I believe that I should have presented a more diverse variety of options for educators to choose from. I say this because while the Maker Cart works, there could have been another idea out there that is more effective. </p>
         </div>
-        {/* <p>Include activity card improvements + supplies that when it in + grant applications? + partnerships + what I learned from the project -- make the prototypes toggles --- needs smooth animation</p> */}
-        {/* <p>4. What was your solution? How did you make visual and interaction design decisions? Did you leverage prototyping?</p>
-        <p>5. What did you learn from the project? What would you do differently if you had more time, or if you could do it over?</p> */}
       </div>
     </main>
   );
