@@ -14,11 +14,11 @@ import { motion } from "framer-motion";
 import MC0 from '@/public/maker-cart/MC0.png'
 import MC1 from '@/public/maker-cart/MC1.png'
 import MC2 from '@/public/maker-cart/MC2.jpg'
-import MC21 from '@/public/maker-cart/MC2.1.jpg'
+import MC21 from '@/public/maker-cart/MC2.1.JPG'
 import MC23 from '@/public/maker-cart/MC2.3.png'
 import MC3 from '@/public/maker-cart/MC3.png'
-import MC4 from '@/public/maker-cart/MC4.jpg'
-import MC5 from '@/public/maker-cart/MC5.jpg'
+import MC4 from '@/public/maker-cart/MC4.JPG'
+import MC5 from '@/public/maker-cart/MC5.JPG'
 import MC6 from '@/public/maker-cart/MC6.jpg'
 
 import SKT1 from '@/public/maker-cart/SKT1.png'
@@ -28,14 +28,14 @@ import SKT4 from '@/public/maker-cart/SKT4.png'
 
 import CAD1 from '@/public/maker-cart/CAD1.png'
 import CAD5 from '@/public/maker-cart/CAD5.png'
-import CAD3 from '@/public/maker-cart/CAD3.jpg'
+import CAD3 from '@/public/maker-cart/CAD3.JPG'
 import CAD4 from '@/public/maker-cart/CAD4.png'
 
 import ACT1 from '@/public/maker-cart/ACT1.png'
 import ACT2 from '@/public/maker-cart/ACT2.png'
 
 import P1 from '@/public/maker-cart/P1.png'
-import P2 from '@/public/maker-cart/P2.jpg'
+import P2 from '@/public/maker-cart/P2.JPG'
 // import TeacherSurvey from '@/public/maker-cart/teacher-survey.png'
 
 
