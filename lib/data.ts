@@ -89,7 +89,7 @@ export const projectsData = [
     link: "maker-cart",
   },
   {
-    title: "Safe Bites App",
+    title: "Safe Bites Mobile App",
     description:
       "Designed and developed an app that addressed the confusing process of finding restaurants dedicated to keeping customers and employees safe from COVID-19.​",
     tags: ["React Native", "Figma", "Video Editing"],

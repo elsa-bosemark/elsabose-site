@@ -49,7 +49,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>Hi, I'm Elsa Bosemark, a Stanford undergrad pursuing the intersection of CS, psychology, and philosophy. I have experience with <span className="font-bold">front-stack & mobile development, UX design, and leading teams</span></span>
+        <span>Hi, I'm Elsa Bosemark, a Stanford undergrad pursuing the intersection of computer science, psychology, and philosophy. I have experience with <span className="font-bold">front-stack & mobile development, UX design, and leading teams</span></span>
       </motion.h1>
 
       <motion.div
