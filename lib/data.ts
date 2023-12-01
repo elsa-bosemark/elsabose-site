@@ -7,6 +7,7 @@ import SKT4 from "@/public/maker-cart/SKT4.png"
 
 import MCP from "@/public/MCP.png";
 import SBP from "@/public/SBP.png";
+import Speaker from "@/public/speakerthumbnail.png"
 
 export const links = [
   {
@@ -73,10 +74,10 @@ export const skillsData = [
   "Procreate",
   "Rhino (CAD)",
   "Canva",
-  "Laser Cutter", 
+  "Laser Cutter",
   "Table Saw",
   "Miter Saw"
- 
+
 ] as const;
 
 export const projectsData = [
@@ -96,6 +97,15 @@ export const projectsData = [
     imageUrl: SBP,
     link: "safe-bites-app",
   },
+  {
+    title: "Bluetooth Speaker",
+    description:
+      "Created the PCB and encasing for a bluetooth speaker.​",
+    tags: ["Rhino", "Laser Cutter", "Eagle", "Bread Board", "Soldering"],
+    imageUrl: Speaker,
+    link: "speaker",
+  },
+
   // {
   //   title: "Interactive Art Exhibit",
   //   description:

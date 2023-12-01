@@ -9,7 +9,6 @@ import G2ImageCard from "@/components/project/G2ImageCard"
 import MiniDivider from "@/components/project/minidivider"
 import G2Card from "@/components/project/G2Card"
 
-
 import SB1 from '@/public/safe-bites/SB1.png'
 import SB2 from '@/public/safe-bites/SB2.png'
 import timeline from '@/public/safe-bites/timeline.png'
